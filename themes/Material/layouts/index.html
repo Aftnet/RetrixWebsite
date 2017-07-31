@@ -37,16 +37,13 @@
 
         	<div class="collapse navbar-collapse" id="navigation-example">
         		<ul class="nav navbar-nav navbar-right">
+					<!--
     				<li>
     					<a href="../components-documentation.html" target="_blank">
     						Components
     					</a>
-    				</li>
-    				<li>
-						<a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" target="_blank">
-							<i class="material-icons">unarchive</i> Upgrade to PRO
-						</a>
-    				</li>
+					</li>
+					/!-->
 		            <li>
 		                <a href="{{ .Site.Params.GithubPage }}" target="_blank" class="btn btn-simple btn-white btn-just-icon">
 							<i class="fa fa-github"></i>
@@ -56,7 +53,12 @@
 		                <a href="{{ .Site.Params.TwitterPage }}" target="_blank" class="btn btn-simple btn-white btn-just-icon">
 							<i class="fa fa-twitter"></i>
 						</a>
-		            </li>
+					</li>
+					<li>
+						<a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+							<i class="fa fa-comments"></i>
+						</a>
+    				</li>
         		</ul>
         	</div>
     	</div>
@@ -67,8 +69,8 @@
             <div class="container">
                 <div class="row">
 					<div class="col-md-6">
-						<h1 class="title">Write the best title for your page.</h1>
-	                    <h4>Every landing page needs a small description after the big bold title, that's why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
+						<h1 class="title">Libretro has come to Windows 10</h1>
+	                    <h4>Play your favorite retro games on your PC, Phone and Xbox One</h4>
 					</div>
 				</div>
 				<div class="row">
@@ -129,52 +131,6 @@
 					</div>
 	            </div>
 
-	        	<div class="section text-center">
-	                <h2 class="title">Here is our team</h2>
-
-					<div class="team">
-						<div class="row">
-							<div class="col-md-4">
-			                    <div class="team-player">
-			                        <img src="/img/avatar.jpg" alt="Thumbnail Image" class="img-raised img-circle">
-			                        <h4 class="title">Gigi Hadid <br />
-										<small class="text-muted">Model</small>
-									</h4>
-			                        <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-									<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
-									<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-instagram"></i></a>
-									<a href="#pablo" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-facebook-square"></i></a>
-			                    </div>
-			                </div>
-			                <div class="col-md-4">
-			                    <div class="team-player">
-			                        <img src="/img/christian.jpg" alt="Thumbnail Image" class="img-raised img-circle">
-			                        <h4 class="title">Christian Louboutin<br />
-										<small class="text-muted">Designer</small>
-									</h4>
-			                        <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-									<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
-									<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-linkedin"></i></a>
-			                    </div>
-			                </div>
-			                <div class="col-md-4">
-			                    <div class="team-player">
-			                        <img src="/img/kendall.jpg" alt="Thumbnail Image" class="img-raised img-circle">
-			                        <h4 class="title">Kendall Jenner<br />
-										<small class="text-muted">Model</small>
-									</h4>
-			                        <p>You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-									<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-google-plus"></i></a>
-									<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-youtube-play"></i></a>
-									<a href="#pablo" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-twitter"></i></a>
-			                    </div>
-			                </div>
-						</div>
-					</div>
-
-	            </div>
-
-
 	        	<div class="section landing-section">
 	                <div class="row">
 	                    <div class="col-md-8 col-md-offset-2">
@@ -222,8 +178,8 @@
 	            <nav class="pull-left">
 	                <ul>
 	                    <li>
-	                        <a href="http://www.creative-tim.com">
-	                            Creative Tim
+	                        <a href="{{ .Site.Params.AuthorLink }}">
+	                           {{ .Site.Params.AuthorName }}
 	                        </a>
 	                    </li>
 						<li>
@@ -244,7 +200,7 @@
 	                </ul>
 	            </nav>
 	            <div class="copyright pull-right">
-	                &copy; 2016, made with <i class="fa fa-heart heart"></i> by Creative Tim
+	                &copy; 2017 {{ .Site.Params.AuthorName }}
 	            </div>
 	        </div>
 	    </footer>
