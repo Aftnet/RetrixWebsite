@@ -1,0 +1,16 @@
+baseURL = "https://www.retrix.me/"
+languageCode = "en-us"
+title = "RetriX"
+theme = "Material"
+
+[Params]
+    demoVideoLink = "https://www.youtube.com/embed/1mzS54HhcEM"
+    downloadLink = "https://github.com/Aftnet/LibretroRT/releases/download/NGP_WSwan/RetriX.UWP_1.4.10.0_x86_x64_arm.appxbundle"
+    donateLink = "https://www.gofundme.com/retrix"
+    githubPage = "https://github.com/Aftnet/LibretroRT"
+    guidePage = "https://github.com/Aftnet/LibretroRT/wiki"
+    twitterPage = "https://twitter.com/aftnet"
+    discordPage = "https://discord.gg/D6MtrvH"
+    authorName = "Alberto Fustinoni"
+    authorLink = "https://www.aftnet.net"
+    analyticsID = "UA-22182855-2"
