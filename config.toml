@@ -5,7 +5,7 @@ theme = "Material"
 
 [Params]
     demoVideoLink = "https://www.youtube.com/embed/1mzS54HhcEM"
-    downloadLink = "https://github.com/Aftnet/LibretroRT/releases/download/PCFX/RetriX.UWP_1.7.13.0_x86_x64_arm.appxbundle"
+    downloadLink = "https://github.com/Aftnet/LibretroRT/releases/download/v1.8/RetriX.UWP_1.8.14.0_x86_x64_arm.appxbundle"
     donateLink = "https://www.patreon.com/aftnet"
     githubPage = "https://github.com/Aftnet/LibretroRT"
     guidePage = "https://github.com/Aftnet/LibretroRT/wiki"
