@@ -5,7 +5,7 @@ theme = "Material"
 
 [Params]
     demoVideoLink = "https://www.youtube.com/embed/1mzS54HhcEM"
-    downloadLink = "https://github.com/Aftnet/RetriX/releases/download/RetriX_2.1.1/RetriX.UWP_2.1.1.0_x86_x64_arm.appxbundle"
+    downloadLink = "/getcurrent"
     donateLink = "https://www.patreon.com/aftnet"
     githubPage = "https://github.com/Aftnet/RetriX"
     guidePage = "https://github.com/Aftnet/RetriX/wiki"
@@ -14,3 +14,4 @@ theme = "Material"
     authorName = "Alberto Fustinoni"
     authorLink = "https://www.aftnet.net"
     analyticsID = "UA-22182855-2"
+    
