@@ -5,11 +5,10 @@ theme = "Material"
 
 [Params]
     demoVideoLink = "https://www.youtube.com/embed/1mzS54HhcEM"
-    downloadLink = "/download"
+    downloadLink = "https://github.com/Aftnet/RetriX/releases/latest"
     donateLink = "https://www.patreon.com/aftnet"
     githubPage = "https://github.com/Aftnet/RetriX"
     guidePage = "https://github.com/Aftnet/RetriX/wiki"
-    twitterPage = "https://twitter.com/aftnet"
     discordPage = "https://discord.gg/AJM9ahm"
     authorName = "Alberto Fustinoni"
     authorLink = "https://www.aftnet.net"
